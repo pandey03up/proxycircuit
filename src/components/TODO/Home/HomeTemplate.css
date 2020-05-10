@@ -1,0 +1,48 @@
+.content_main{
+    background-color: #d92518;
+    width: 100%;
+    min-height: 700px;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    padding-top: 15px;
+    background-color: rgba(156, 57, 50,.5);
+    top: 0;
+}
+.logo_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 10%;
+}
+.after_auth_succes{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    margin-right: 10%;
+    width: 20%;
+    height: 50px;
+    margin-top: 20px;
+}
+.profile_image{
+    width: 25%;
+}
+.logout_toggle{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.created-todos{
+    border: 1px solid #d92518;
+    background-color: #d92518;
+}
+.todos_container{
+    margin-top: 120px;
+    text-align: center;
+}

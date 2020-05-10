@@ -1,0 +1,65 @@
+.home_container{
+    width: 100%;
+    background-color: #d92518;
+    min-height: 700px;
+}
+.home_title_container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    padding-top: 15px;
+    background-color: rgba(156, 57, 50, .5);
+    top: 0;
+}
+.app_logo{
+    width: 100%;
+    height: 60px;
+    margin-left: 2%;
+}
+.authentication{
+    display: flex;
+    margin-right: 10%;
+    width: 10%;
+    height: 25px;
+    margin-top: 20px;
+}
+.tag{
+    color: white;
+    font-size: 20px;
+    height: 100%;
+    text-decoration: none;
+}
+.tag_login{
+    height: 100%;
+    margin-right: 30%;
+    margin-left: 3%;
+}
+.tag_signup{
+    height: 100%;
+    margin-left: 20%;
+}
+.about_app{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.about{
+    margin-top: 200px;
+    height: 150px;
+    width: 30%;
+    margin-left: 5%;
+}
+.showing_image{
+    margin-top: 120px;
+    width: 40%;
+    height: 390px;
+    margin-right: 5%;
+}
+.about h3{
+    font-size: 25px
+}
+.about p{
+    font-size: 20px;
+}
